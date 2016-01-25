@@ -26,9 +26,6 @@ let Query = React.createClass({
     )
   }
 });
-Query.contextTypes = {
-  store: React.PropTypes.object
-}
 
 const mapStateToProps = (state) => {
   return {
